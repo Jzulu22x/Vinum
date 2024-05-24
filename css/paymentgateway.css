@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#top_mobile{
+   display: none;
+}
+#botton_mobile{
+   display: none;
+}
+#navbar_mobile{
+   display: none;
+}
+#title_shopping_mobile{
+   display: none;
+}
+#container_product_mobile{
+   display: none;
+}
+#footer_mobile{
+   display: none;
+}
+body{
+   font-family: "EB Garamond", serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+#navbar_desktop{
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   background-color: #764640;
+}
+#navbar_desktop img{
+   width: 180px;
+}
+#navbar_desktop #home_navbar_desktop{
+   margin-top: 17%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#navbar_desktop #shop_navbar_desktop{
+   margin-top: 15%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#navbar_desktop #community_navbar_desktop{
+   margin-top: 10%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#navbar_desktop #subscription_navbar_desktop{
+   margin-top: 10%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#navbar_desktop #about_us_navbar_desktop{
+   margin-top: 15%;
+   font-size: 15px;
+   font-weight: 400;
+}
+#navbar_desktop #help_navbar_desktop{
+   margin-top: 38%;
+   font-size: 15px;
+   font-weight: 400;
+}
+#navbar_desktop #loginout_navbar_desktop{
+   margin-top: 5%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#user_navbar_desktop{
+   display: flex;
+   gap: 35px;
+}
+#icon_user_navbar_desktop{
+   margin-top: 4%;
+}
+#cart_desktop{
+   margin-top: 5%;
+}
+#mobile{
+    display: none;
+}
+#desktop{
+   display: flex;
+}
+#left_div_desktop{
+      width: 55%;
+      display: block;
+      margin: 7%;
+}
+#left_div_desktop input{
+    border: none;
+   font-size: 40px;
+   border-bottom: 3px solid #36040D;
+   margin: 4%;
+   padding-bottom: 1%;
+}
+#right_div_desktop{
+   width: 45%;
+   background-color: #36040D;
+}
+#flex-input{
+   display: flex;
+   width: 100%;
+}
+input:focus {
+   outline: none;
+}
+#paymentmethod h1{
+   display: flex;
+   justify-content: center;
+   font-size: 40px;
+}
+#right_div_desktop #title_div_desktop{
+   border-bottom: 3px solid #764640;
+}
+#right_div_desktop h1{
+   display: flex;
+   justify-content: center;
+   color: white;
+   font-size: 40px;
+   margin-top: 5%;
+   width: 80%;
+   margin-left: 10%;
+   padding-bottom: 2%;
+}
+#product{
+   width: 40%;
+   margin-left: 30%;
+   margin-top: 4%;
+   background-color: #764640;
+   padding: 2%;
+   border-radius: 10px;
+   margin-bottom: 4%;
+}
+#product #name_product_desktop{
+   font-size: 25px;
+   color: white;
+   margin-left: 5%;
+   font-weight: 600;
+}
+#product #price_desktop{
+   font-size: 15px;
+   color: white;
+   margin-left: 55%;
+   font-weight: 400;
+}
+#recomended_desktop{
+   border-top: 3px solid #764640;
+   border-bottom: 3px solid #764640;
+   width: 80%;
+   margin-left: 10%;
+}
+#squeares_desktop{
+   margin-top: 3%;
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   margin-bottom: 8%;
+}
+#squeares_desktop #squeare1 {
+   width: 120px;
+   height: 120px;
+   background-color: black;
+   color: white;
+}
+#squeares_desktop #squeare1 #position_desktop1{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   font-size: 25px;
+   text-align: center;
+}
+#squeares_desktop #squeare1 #position_desktop1 p{
+   background-color: #764640;
+   width: 100%;
+   height: 40px;
+}
+#squeares_desktop #squeare2 {
+   width: 120px;
+   height: 120px;
+   background-color: black;
+   color: white;
+}
+#squeares_desktop #squeare2 #position_desktop2{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   font-size: 25px;
+   text-align: center;
+}
+#squeares_desktop #squeare2 #position_desktop2 p{
+   background-color: #764640;
+   width: 100%;
+   height: 40px;
+}
+#squeares_desktop #squeare3 {
+   width: 120px;
+   height: 120px;
+   background-color: black;
+   color: white;
+}
+#squeares_desktop #squeare3 #position_desktop3{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   font-size: 25px;
+   text-align: center;
+}
+#squeares_desktop #squeare3 #position_desktop3 p{
+   background-color: #764640;
+   width: 100%;
+   height: 40px;
+}
+#total_subtotal_desktop{
+   display: flex;
+   width: 80%;
+   margin-left: 10%;
+   justify-content: center;
+   gap: 70px;
+   color: white;
+}
+#title_desktop{
+   font-size: 50px;
+   font-weight: 800;
+   margin-top: 5%;
+}
+#price_desktop{
+   font-size: 30px;
+   margin-top: 8%;
+}
+#input_payment_method_desktop label{
+   font-size: 40px;
+}
+#input_payment_method_desktop input{
+   margin-left: 10%;
+   margin-top: 8%;
+}
+#pay_now{
+   display: flex;
+   width: 40%;
+   justify-content: center;
+   margin-left: 30%;
+   margin-top: 5%;
+   background-color: #36040D;
+   border: none;
+   color: white;
+   font-size: 30px;
+   padding: 2%;
+   border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+    body{  
+       background-size: cover;
+       font-family: "EB Garamond", serif;
+       font-optical-sizing: auto;
+       font-style: normal;
+    }
+    #navbar_desktop{
+       display: none;
+    }
+    #navbar_mobile{
+       display: flex;
+       padding-top: 2%;
+       padding-bottom: 2%;
+       background-color: #764640;
+    }
+    #navbar_mobile img{
+       width: 20%;
+       margin-left: 35%;
+       margin-top: 1.5%;
+    }
+    #navbar_mobile #left_row{
+       margin-left: 50%;
+    }
+    #navbar_mobile #cart{
+       margin-left: -100%;
+       margin-top: -5%;
+    }
+    #navbar_mobile #menu{
+       margin-left: -30%;
+    }
+    #desktop{
+        display: none;
+    }
+    #top_mobile{
+      display: block;
+      background-color: #36040D;
+      width: 100%;
+      height:  400px;
+    }
+    #title_top{
+      display: flex;
+      width: 80%;
+      margin-left: 10%;
+      justify-content: center;
+      padding-top: 4%;
+      color: white;
+      border-bottom:2px solid #764640;
+      padding-bottom: 2%;
+    }
+    #product_content{
+      width: 50%;
+      background-color: #764640;
+      margin-left: 25%;
+      margin-top: 8%;
+      border-radius: 10px;
+      padding: 1%;
+      padding-left: 4%;
+      color: white;
+    }
+    #product_content  #name_product_mobile{
+      font-size: 25px;
+    }
+    #product_content  #price_mobile{
+      font-size: 20px;
+      margin-left: 40%;
+    }
+    #payment_method #title_payment{
+      margin-top: 5%;
+      margin-left: 25%;
+      color: white;
+    }
+    #botton_mobile{
+      display: block;
+    }
+    #input_payment_method_mobile label{
+      font-size: 30px;
+      color: white;
+    }
+    #input_payment_method_mobile #checkbox_paypal_mobile {
+      margin-left: 20%;
+      margin-top: 10%;
+   }
+   #input_payment_method_mobile #checkbox_credit_card_mobile {
+      margin-left: 20%;
+      margin-top: 10%;
+   }
+   #input_payment_method_mobile{
+      display: block;
+      margin-left: 25%;
+      justify-content: center;
+      width: 50%;
+      border-bottom: 2px solid #764640;
+      padding-bottom: 2%;
+      margin-top: 4%;
+      border-left: 2px solid #764640;
+      border-right: 2px solid #764640;
+   }
+   #botton_mobile{
+      display: block;
+      width: 80%;
+      margin-left: 10%;
+      justify-content: center;
+   }
+   #botton_mobile input{
+      border: none;
+      border-bottom: 2px solid #36040D;
+      color:black;
+      width: 300px;
+      margin-top: 10%;
+      font-size:30px;
+      padding-bottom: 3%;
+   }
+   #go_pay_mobile{
+      width: 50%;
+      display: block;
+      margin-left: 25%;
+      justify-content: center;
+      margin-top: 10%;
+      padding: 3%;
+      border: none;
+      background-color: #36040D;
+      color: white;
+      font-size: 25px;
+      border-radius: 10px;
+   }
+}
