@@ -3,43 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/CSS/login.css" />
+    <link rel="stylesheet" href="/css/login.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Login Vinum</title>
   </head>
   <body>
     <header>
-      <div class="nav-container">
-        <nav>
-          <ul>
-            <h1>Vinum</h1>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Tienda</a></li>
-            <li><a href="#">Suscripción</a></li>
-            <li><a href="#">Comunidad</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Ayuda</a></li>
-            <li><a href=""></a></li>
-            <li>
-              <a href=""></a
-              ><img
-                src="https://img.icons8.com/?size=100&id=9671&format=png&color=FFFFFF"
-                height="35px"
-                width="35px"
-                alt=""
-              />
-            </li>
-            <li>
-              <a href=""> Iniciar Sesión </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav id="navbar_desktop">
+        <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+        <a href="/html/homePage.html"><p id="home_navbar_desktop">Home</p></a>
+        <a href="/html/marketplace.html"><p id="shop_navbar_desktop">Tienda</p></a>
+        <a href="/html/homePage.html/"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+        <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
+        <a href="/html/shoppingCart.html"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
+        <a href="/html/login.html" id="user_navbar_desktop">
+            <p id="loginout_navbar_desktop">Log in / Sing Up</p>
+            <box-icon id="icon_user_navbar_desktop" size="40px" name='user' type='solid' color='#ffffff' ></box-icon>
+        </a>
+    </nav>
+    <nav id="navbar_mobile">
+        <a href="/html/homePage.html"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+        <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+        <a href="/html/shoppingCart.html"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+        <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
+    </nav>
     </header>
 
     <main>
@@ -65,7 +58,7 @@
           <a href="#">¿Olvidaste tu contraseña?</a>
           <p>
             ¿No tienes una cuenta?
-            <a href="/HTML/register.html">Regístrate ahora</a>
+            <a href="/html/register.html">Regístrate ahora</a>
           </p>
         </form>
       </div>
