@@ -18,51 +18,24 @@
 <body>
     <!-- head mobile -->
     <header class="head">
-        <!-- logo and recoil -->
-        <!-- recoil -->
-        <div class="logo_and_recoil">
-            <a href="#" class="recoil" ><i class="bi bi-arrow-left"></i></a>
-            <!-- logo -->
-            <a href=""><img class="logo" src="/assets/img/vinumBlanco.png" alt="#"></a>
-        </div>
-        <!-- nav var -->
-            <!-- open hamburguer -->
-        <button class="abrir_menu" id="abrir"><i class="bi bi-list"></i></button>
-            <!-- -- -->
-            <!-- hamburguer -->
-        <nav class="nav" id="nav">
-            <div class="cart_list">
-                <button class="cart"><i class="bi bi-cart-dash"></i></button>
-                <button class="cerrar_menu" id="cerrar"><i class="bi bi-list"></i></button>
-            </div>
-            <ul class="nav_list">
-                <li class="li"><a href="/">Home</a></li>
-                <li class="li"><a href="/">Shop</a></li>
-                <li class="li"><a href="/">Subscription</a></li>
-                <li class="li"><a href="/">Community</a></li>
-                <div class="linea"></div>
-                <li class="li"><a href="/">Help</a></li>
-                <li class="li"><a href="/">About us</a></li>
-                <div class="linea"></div>
-                <li class="li"><a href="/">Log in</a></li>
-                <li class="li"><a href="/">Sign up</a></li>
-            </ul>
+        <nav id="navbar_desktop">
+            <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="/html/homePage.html"><p id="home_navbar_desktop">Home</p></a>
+            <a href="/html/marketplace.html"><p id="shop_navbar_desktop">Tienda</p></a>
+            <a href="/html/homePage.html/"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+            <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
+            <a href="/html/shoppingCart.html"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="/html/login.html" id="user_navbar_desktop">
+                <p id="loginout_navbar_desktop">Log in / Sing Up</p>
+                <box-icon id="icon_user_navbar_desktop" size="40px" name='user' type='solid' color='#ffffff' ></box-icon>
+            </a>
         </nav>
-        <!-- head destok -->
-    <nav id="navbar_desktop">
-        <a href="#" class="a"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
-        <a href="#" class="a"><p id="home_navbar_desktop">Home</p></a>
-        <a href="#" class="a"><p id="shop_navbar_desktop">Tienda</p></a>
-        <a href="#" class="a"><p id="subscription_navbar_desktop">Suscripcion</p></a>
-        <a href="#" class="a"><p id="community_navbar_desktop">Comunidad</p></a>
-        <a href="#" class="a"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
-        <a href="#" class="a"><p id="help_navbar_desktop">Ayuda</p></a>
-        <a href="#" class="a"><box-icon id="cart_desktop" size="70px" name='cart' color='#ffffff' ></box-icon></a>
-        <a href="#" id="user_navbar_desktop">
-            <p id="loginout_navbar_desktop" class="a">Log in / Sing Up</p>
-            <box-icon id="icon_user_navbar_desktop" size="60px" name='user' type='solid' color='#ffffff' ></box-icon>
-        </a>
-    </nav>
+        <nav id="navbar_mobile">
+            <a href="/html/homePage.html"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+            <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="/html/shoppingCart.html"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
+        </nav>
     </header>
     
     <!--Image Introduction Wines  -->
