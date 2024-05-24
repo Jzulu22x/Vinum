@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/paymentgateway.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Payment Gateway</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar_desktop">
+            <a href="#"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="#"><p id="home_navbar_desktop">Home</p></a>
+            <a href="#"><p id="shop_navbar_desktop">Tienda</p></a>
+            <a href="#"><p id="subscription_navbar_desktop">Suscripcion</p></a>
+            <a href="#"><p id="community_navbar_desktop">Comunidad</p></a>
+            <a href="#"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+            <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
+            <a href="#"><box-icon id="cart_desktop" size="70px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="#" id="user_navbar_desktop">
+                <p id="loginout_navbar_desktop">Log in / Sing Up</p>
+                <box-icon id="icon_user_navbar_desktop" size="60px" name='user' type='solid' color='#ffffff' ></box-icon>
+            </a>
+        </nav>
+        <nav id="navbar_mobile">
+            <a href="#"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+            <a href="#"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="#"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
+        </nav>
+    </header>
+    <main>
+        <div id="desktop">
+            <div id="left_div_desktop">
+                <input type="text" placeholder="Numero Tarjeta">
+                <input type="text" placeholder="Titular Tarjeta">
+                <div id="flex_input">
+                    <input id="expire_date_desktop" type="text" placeholder="Fecha vencimiento">
+                    <input id="cvv_desktop" type="number" min="1" max="16" placeholder="CVV">
+                </div>
+                <div id="paymentmethod">
+                    <h1>Payment Method</h1>
+                    <div id="input_payment_method_desktop">
+                        <input id="checkbox_paypal_dekstop" type="checkbox" value="PAYPAL">
+                        <label for="checkbox_paypal_dekstop">PAYPAL</label>
+                        <input id="checkbox_credit_card_dekstop" type="checkbox" value="PAYPAL">
+                        <label for="checkbox_credit_card_dekstop">Credit Card</label>
+                    </div>
+                    <button id="pay_now">Pay Now</button>
+                </div>
+            </div>
+            <div id="right_div_desktop">
+                <h1 id="title_div_desktop">Purchase Summary</h1>
+                <div id="product">
+                    <p id="name_product_desktop">Nombre del Vino</p>
+                    <p id="price_desktop">280.99 $USD</p>
+                </div>
+                <div id="recomended_desktop">
+                    <h1>Recomendado</h1>
+                    <div id="squeares_desktop">
+                        <div id="squeare1">
+                            <div id="position_desktop1">
+                                <p>Queso</p>
+                            </div>
+                        </div>
+                        <div id="squeare2">
+                            <div id="position_desktop2">
+                                <p>Vino Rojo</p>
+                            </div>
+                        </div>
+                        <div id="squeare3">
+                            <div id="position_desktop3">
+                                <p>Copas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="total_subtotal_desktop">
+                    <p id="title_desktop">Total:</p>
+                    <p id="price_desktop">280.99 $USD</p>
+                </div>
+            </div>
+        </div>
+        <div id="top_mobile">
+            <h1 id="title_top">Purchase Summary</h1>
+            <div id="product_content">
+                <p id="name_product_mobile">Nombre del Vino</p>
+                <p id="price_mobile">280.99 $USD</p>
+            </div>
+            <div id="payment_method">
+                <h1 id="title_payment">Payment Method</h1>
+                <div id="input_payment_method_mobile">
+                    <input id="checkbox_paypal_mobile" type="checkbox" value="PAYPAL">
+                    <label for="checkbox_paypal_mobile">PAYPAL</label>
+                    <input id="checkbox_credit_card_mobile" type="checkbox" value="PAYPAL">
+                    <label for="checkbox_credit_card_mobile">Credit Card</label>
+                </div>
+            </div>
+        </div>
+        <div id="botton_mobile">
+            <input type="text" placeholder="Nombre">
+            <input type="Number" placeholder="Numero De Tarjeta">
+            <input type="Number" placeholder="Fecha Expiracion">
+            <input type="number" placeholder="CVV">
+        </div>
+        <button id="go_pay_mobile">Go Pay</button>
+    </main>
+</body>
+</html>
