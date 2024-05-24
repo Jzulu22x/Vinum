@@ -1,0 +1,115 @@
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 800 */
+
+/* .eb-garamond-<uniquifier > {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4f0c17;
+  background-image: url(/assets/94852.jpg);
+}
+
+header {
+  background-color: #73453f;
+  color: #fff;
+  padding: 0px 0;
+}
+
+.nav-container {
+  background-color: #73453f;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+main {
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+.login-tittle {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #73453f;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #4f0c17;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #73453f;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
