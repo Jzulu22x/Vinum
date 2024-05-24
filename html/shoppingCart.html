@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/shoppingCart.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Carrito de compras</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar_desktop">
+            <a href="#"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="#"><p id="home_navbar_desktop">Home</p></a>
+            <a href="#"><p id="shop_navbar_desktop">Tienda</p></a>
+            <a href="#"><p id="subscription_navbar_desktop">Suscripcion</p></a>
+            <a href="#"><p id="community_navbar_desktop">Comunidad</p></a>
+            <a href="#"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+            <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
+            <a href="#"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="#" id="user_navbar_desktop">
+                <p id="loginout_navbar_desktop">Log in / Sing Up</p>
+                <box-icon id="icon_user_navbar_desktop" size="40px" name='user' type='solid' color='#ffffff' ></box-icon>
+            </a>
+        </nav>
+        <nav id="navbar_mobile">
+            <a href="#"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+            <a href="#"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="#"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
+        </nav>
+    </header>
+    <main>
+        <h1 id="title_shopping_mobile">Carrito de compras</h1>
+        <h1 id="title_shopping_desktop">Carrito de compras</h1>
+        <div id="container_product_mobile">
+            <img src="../assets/100218-vino-tinto-1865-cabernet-sauvignon (1).png" alt="">
+            <div id="squeare_desciption_mobile">
+                <h2>Nombre Del Vino</h2>
+                <div id="button_pay_mobile">
+                    <h5>290.99 $USD</h5>
+                    <button>
+                        <box-icon name='trash' type='solid' color='#ffffff' ></box-icon>
+                        <box-icon name='plus-circle' color='#ffffff' ></box-icon>
+                        <p>1</p>
+                        <box-icon name='minus-circle' color='#ffffff' ></box-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="container_product_desktop">
+            <img src="../assets/100218-vino-tinto-1865-cabernet-sauvignon (1).png" alt="">
+            <div id="squeare_desciption_desktop">
+                <h2>Nombre Del Vino</h2>
+                <div id="button_pay_desktop">
+                    <h5>290.99 $USD</h5>
+                    <button>
+                        <box-icon name='trash' size="25px" type='solid' color='#ffffff' ></box-icon>
+                        <box-icon name='plus-circle' size="25px" color='#ffffff' ></box-icon>
+                        <p>1</p>
+                        <box-icon name='minus-circle' size="25px" color='#ffffff' ></box-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer_desktop">
+            <div id="subtotal_desktop">
+                <p id="title">Subtotal:</p>
+                <p id="price_desktop">290.99 $USD</p>
+            </div>
+            <div id="total_desktop">
+                <p id="title">Total:</p>
+                <p id="price_desktop">290.99 $USD</p>
+            </div>
+            <div id="buttons_desktop">
+                <button id="go_pay">Go Pay</button>
+                <button id="keep_buying">Keep Buying</button>
+            </div>
+        </div>
+        <div id="footer_mobile">
+            <div id="subtotal_mobile">
+                <p id="title">Subtotal:</p>
+                <p id="price_mobile">290.99 $USD</p>
+            </div>
+            <div id="total_mobile">
+                <p id="title">Total</p>
+                <p id="price_mobile">290.99 $USD</p>
+            </div>
+            <div id="buttons_mobile">
+                <button id="go_pay">Go Pay</button>
+                <button id="keep_buying">Keep Buying</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
