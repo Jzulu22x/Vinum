@@ -1,0 +1,150 @@
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 800 */
+
+/* .eb-garamond-<uniquifier > {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4f0c17;
+  background-image: url(/assets/copa_vino_grande.jpg);
+}
+
+header {
+  background-color: #73453f;
+  color: #fff;
+  padding: 0px 0;
+}
+
+#navbar_mobile{
+  display: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#navbar_desktop{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #73453f;
+}
+#navbar_desktop img{
+  margin-top: 3%;
+  width: 140px;
+}
+#navbar_desktop #home_navbar_desktop{
+  margin-top: 17%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #shop_navbar_desktop{
+  margin-top: 15%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #community_navbar_desktop{
+  margin-top: 10%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #subscription_navbar_desktop{
+  margin-top: 10%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #about_us_navbar_desktop{
+  margin-top: 15%;
+  font-size: 15px;
+  font-weight: 400;
+}
+#navbar_desktop #help_navbar_desktop{
+  margin-top: 38%;
+  font-size: 15px;
+  font-weight: 400;
+}
+#navbar_desktop #loginout_navbar_desktop{
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: 600;
+}
+#user_navbar_desktop{
+  display: flex;
+  gap: 35px;
+}
+#icon_user_navbar_desktop{
+  margin-top: 4%;
+}
+#cart_desktop{
+  margin-top: 5%;
+}
+
+main {
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+.login-tittle {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #73453f;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #4f0c17;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #73453f;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}

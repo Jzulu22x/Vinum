@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/marketplace.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>Vinum</title>
+</head>
+<body>
+    <!-- head mobile -->
+    <header class="head">
+        <nav id="navbar_desktop">
+            <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="/html/homePage.html"><p id="home_navbar_desktop">Home</p></a>
+            <a href="/html/marketplace.html"><p id="shop_navbar_desktop">Tienda</p></a>
+            <a href="/html/homePage.html/"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+            <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
+            <a href="/html/shoppingCart.html"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="/html/login.html" id="user_navbar_desktop">
+                <p id="loginout_navbar_desktop">Log in / Sing Up</p>
+                <box-icon id="icon_user_navbar_desktop" size="40px" name='user' type='solid' color='#ffffff' ></box-icon>
+            </a>
+        </nav>
+        <nav id="navbar_mobile">
+            <a href="/html/homePage.html"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+            <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="/html/shoppingCart.html"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
+        </nav>
+    </header>
+    
+    <!--Image Introduction Wines  -->
+    <main class="container_all">
+        <div class="all">
+    <section class="logo_type">
+        <div class="container_img">
+            <img src="/assets/img/Screenshot from 2024-05-20 07-13-27.png">
+        </div>
+    </section>
+    <!-- Recommended Wines Section -->
+    <section class="container">
+        <div class="arrow">
+            <img src="/assets/img/flecha-izquierda(1).png" alt="">
+        </div>
+        <div class="vinum"><img src="/assets/img/Screenshot from 2024-05-20 07-15-04.png" alt=""></div>
+        <div class="vinum"><img src="/assets/img/Screenshot from 2024-05-20 07-15-24.png" alt=""></div>
+        <div class="vinum"><img src="/assets/img/Screenshot from 2024-05-20 07-16-40.png" alt=""></div>
+        <div class="arrow">
+            <img src="/assets/img/angulo-de-la-flecha-apuntando-hacia-la-derecha.png" alt="">
+    </section>
+    <!-- products -->
+    <section class="products">
+        <div class="sections_one">
+            <div class="txt">
+                <a href="" class="container_text"><p>Copas vidrio</p></a>
+            </div>
+        </div>
+
+        <div class="sections_two">
+            <div class="txt">
+                <a href="" class="container_text"><p>Quesos</p></a>
+            </div>
+        </div>
+
+        <div class="sections_three">
+            <div class="txt">
+                <a href="" class="container_text"><p>Enfriadores</p></a>
+            </div>
+        </div>
+
+        <div class="sections_four">
+            <div class="txt">
+                <a href="" class="container_text"><p>Sacacorchos</p></a>
+            </div>
+        </div>
+
+        </section>
+    </div>
+    <!-- MOVABLE PRODUCTS -->
+    
+    <div class="swiper myswiper">
+
+        <div class="swiper-wrapper">
+            <!-- first product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+            <!-- second product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+            <!-- third product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+            <!-- fourth product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+            <!-- fifth product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+            <!-- sixth product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+            <!-- seventh product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+           <!-- eighth product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+            <!-- ninth product -->
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/assets/img/copablanca.png" alt="#">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products-content">
+                    <div class="product-txt">
+                        <span>$$165,128</span>
+                        <h3>Domaine Bousquet Gran Malbec</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, praesentium tempora. Officiis vitae numquam dicta beatae. Ratione exercitationem eum consectetur omnis doloribus nisi repellendus iure, vero placeat, mollitia ea dignissimos.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/assets/img/177.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    </main>
+    <footer class="footer_destok-mobile">
+        <div class="foot-one">
+          <div class="box-foot">
+                <figure>
+                    <a href=""><img class="img-footer" src="/assets/LOGOS/vinumBlanco.png" alt=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, accusamus!</p>
+                </figure>
+            </div>
+            <div class="box-foot">
+                <h2>SOBRE NOSOTROS</h2>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Principal</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Contactanos</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Soporte</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Terminos y servicios</a>
+              </div>
+            <div class="box-foot">
+                <h2>SIGUENOS</h2>
+                <div class="foot-social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                  </div>
+            </div>
+          </div>
+        <div class="foot-two">
+          <small>&copy; 2024 <b>VINUM</b> - Todos Los Derechos Reservados.</small>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Functionality Menu -->
+    <script>
+        let swiper = new Swiper(".myswiper",{
+            effect: "coverflow",
+            grabCursor:true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                depth:400,
+                modifer:1,
+                slideShadows: true,
+                rotate:0,
+                stretch:0,
+            },
+        })
+    </script>
+    <script src="/js/marketplce.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to connect to bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- link to connect to css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="/CSS/homepage.css" />
+    <link rel="stylesheet" href="/css/footer.css">
+    <!-- window name -->
+
+    <title>Vinum</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar_desktop">
+        <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+        <a href="/html/homePage.html"><p id="home_navbar_desktop">Home</p></a>
+        <a href="/html/marketplace.html"><p id="shop_navbar_desktop">Tienda</p></a>
+        <a href="/html/homePage.html/"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+        <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
+        <a href="/html/shoppingCart.html"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
+        <a href="/html/login.html" id="user_navbar_desktop">
+            <p id="loginout_navbar_desktop">Log in / Sing Up</p>
+            <box-icon id="icon_user_navbar_desktop" size="40px" name='user' type='solid' color='#ffffff' ></box-icon>
+        </a>
+    </nav>
+    <nav id="navbar_mobile">
+        <a href="/html/homePage.html"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+        <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+        <a href="/html/shoppingCart.html"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+        <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
+    </nav>
+    </header>
+
+    <!-- <header class="head">
+        <img class="logo" src="/assets/LOGOS/vinumBlanco.png" alt="#">
+        <a href="#" ><img class="recoil" src="" ></a>
+
+        <button class="abrir_menu" id="abrir"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg></button>
+        <nav class="nav" id="nav">
+            <div class="cart_list">
+                <button class="cart"><i class="bi bi-cart-dash"></i></button>
+                <button class="cerrar_menu" id="cerrar"><i class="bi bi-list"></i></button>
+            </div>
+            <ul class="nav_list">
+                <li class="li"><a href="/">Home</a></li>
+                <li class="li"><a href="/">Shop</a></li>
+                <li class="li"><a href="/">Subscription</a></li>
+                <li class="li"><a href="/">Community</a></li>
+                <div class="linea"></div>
+                <li class="li"><a href="/">Help</a></li>
+                <li class="li"><a href="/">About us</a></li>
+                <div class="linea"></div>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-cart4" id="cart" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                </svg></a> </a>
+                <li class="li"><a href="/">Log in /</a></li>
+                <li class="li"><a href="/">Sign up</a></li>
+                
+                
+                <a> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill " id="login" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                </svg></a>
+                
+            </ul>
+        </nav>
+    </header> -->
+
+    <main>
+      <div class="text-wine">
+        <img class="img-wine" src="/assets/LOGOS/vinumBlanco.png" alt="" />
+        <br /><br />
+        <p>
+          Descubre la excelencia en cada copa. En Vinum, nos apasiona ofrecerte
+          una selecta variedad de vinos provenientes de las mejores bodegas del
+          mundo. Desde tintos robustos hasta blancos refrescantes, cada botella
+          es una obra maestra seleccionada cuidadosamente para satisfacer los
+          paladares más exigentes.
+        </p>
+      </div>
+      <div class="wine-red">
+        <img class="img-red" src="/assets/vino-img.jpg" alt="" />
+      </div>
+    </main>
+    <!-- link to connect to bootstrap js-->
+    <footer class="footer_destok-mobile">
+      <div class="foot-one">
+        <div class="box-foot">
+              <figure>
+                  <a href=""><img class="img-footer" src="/assets/LOGOS/vinumBlanco.png" alt=""></a>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, accusamus!</p>
+              </figure>
+          </div>
+          <div class="box-foot">
+              <h2>SOBRE NOSOTROS</h2>
+              <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Principal</a>
+              <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Contactanos</a>
+              <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Soporte</a>
+              <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Terminos y servicios</a>
+            </div>
+          <div class="box-foot">
+              <h2>SIGUENOS</h2>
+              <div class="foot-social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-envelope-at"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                </div>
+          </div>
+        </div>
+      <div class="foot-two">
+        <small>&copy; 2024 <b>VINUM</b> - Todos Los Derechos Reservados.</small>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/JAVASCRIPT/HomePagesMenuMobile.js"></script>
+  </body>
+  </html>
+  
