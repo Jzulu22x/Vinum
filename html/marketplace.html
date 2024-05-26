@@ -12,57 +12,41 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
         <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="/css/marketplace.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <title>Vinum</title>
 </head>
 <body>
     <!-- head mobile -->
     <header class="head">
-        <!-- logo and recoil -->
-        <!-- recoil -->
-        <div class="logo_and_recoil">
-            <a href="#" class="recoil" ><i class="bi bi-arrow-left"></i></a>
-            <!-- logo -->
-            <a href=""><img class="logo" src="/assets/img/vinumBlanco.png" alt="#"></a>
-        </div>
-        <!-- nav var -->
-            <!-- open hamburguer -->
-        <button class="abrir_menu" id="abrir"><i class="bi bi-list"></i></button>
-            <!-- -- -->
-            <!-- hamburguer -->
-        <nav class="nav" id="nav">
-            <div class="cart_list">
-                <button class="cart"><i class="bi bi-cart-dash"></i></button>
-                <button class="cerrar_menu" id="cerrar"><i class="bi bi-list"></i></button>
-            </div>
-            <ul class="nav_list">
-                <li class="li"><a href="/">Home</a></li>
-                <li class="li"><a href="/">Shop</a></li>
-                <li class="li"><a href="/">Subscription</a></li>
-                <li class="li"><a href="/">Community</a></li>
-                <div class="linea"></div>
-                <li class="li"><a href="/">Help</a></li>
-                <li class="li"><a href="/">About us</a></li>
-                <div class="linea"></div>
-                <li class="li"><a href="/">Log in</a></li>
-                <li class="li"><a href="/">Sign up</a></li>
-            </ul>
+        <nav id="navbar_desktop">
+            <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="/html/homePage.html"><p id="home_navbar_desktop">Home</p></a>
+            <a href="/html/marketplace.html"><p id="shop_navbar_desktop">Tienda</p></a>
+            <a href="/html/homePage.html/"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+            <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
+            <a href="/html/shoppingCart.html"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="/html/login.html" id="user_navbar_desktop">
+                <p id="loginout_navbar_desktop">Log in / Sing Up</p>
+                <box-icon id="icon_user_navbar_desktop" size="40px" name='user' type='solid' color='#ffffff' ></box-icon>
+            </a>
         </nav>
-        <!-- head destok -->
-    <nav id="navbar_desktop">
-        <a href="#" class="a"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
-        <a href="#" class="a"><p id="home_navbar_desktop">Home</p></a>
-        <a href="#" class="a"><p id="shop_navbar_desktop">Tienda</p></a>
-        <a href="#" class="a"><p id="subscription_navbar_desktop">Suscripcion</p></a>
-        <a href="#" class="a"><p id="community_navbar_desktop">Comunidad</p></a>
-        <a href="#" class="a"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
-        <a href="#" class="a"><p id="help_navbar_desktop">Ayuda</p></a>
-        <a href="#" class="a"><box-icon id="cart_desktop" size="70px" name='cart' color='#ffffff' ></box-icon></a>
-        <a href="#" id="user_navbar_desktop">
-            <p id="loginout_navbar_desktop" class="a">Log in / Sing Up</p>
-            <box-icon id="icon_user_navbar_desktop" size="60px" name='user' type='solid' color='#ffffff' ></box-icon>
-        </a>
-    </nav>
+        <nav id="navbar_mobile">
+            <a href="/html/homePage.html"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+            <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="/html/shoppingCart.html"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
+        </nav>
     </header>
     
     <!--Image Introduction Wines  -->
@@ -314,6 +298,35 @@
 
 
     </main>
+    <footer class="footer_destok-mobile">
+        <div class="foot-one">
+          <div class="box-foot">
+                <figure>
+                    <a href=""><img class="img-footer" src="/assets/LOGOS/vinumBlanco.png" alt=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, accusamus!</p>
+                </figure>
+            </div>
+            <div class="box-foot">
+                <h2>SOBRE NOSOTROS</h2>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Principal</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Contactanos</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Soporte</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Terminos y servicios</a>
+              </div>
+            <div class="box-foot">
+                <h2>SIGUENOS</h2>
+                <div class="foot-social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                  </div>
+            </div>
+          </div>
+        <div class="foot-two">
+          <small>&copy; 2024 <b>VINUM</b> - Todos Los Derechos Reservados.</small>
+        </div>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Functionality Menu -->
     <script>
