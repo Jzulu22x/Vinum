@@ -1,4 +1,28 @@
 {
   "users": [
+    {
+      "id": "3f19",
+      "newUserName": "Diego Felipe",
+      "newLastName": "Salamanca Rojas",
+      "newPhone": "3107929306",
+      "newEmail": "salamancadiego46@gmail.com",
+      "newPassword": "asdf"
+    },
+    {
+      "id": "4881",
+      "newUserName": "Diego Felipe",
+      "newLastName": "Salamanca Rojas",
+      "newPhone": "3107929307",
+      "newEmail": "salamancadiego47@gmail.com",
+      "newPassword": "asdf"
+    },
+    {
+      "id": "7f2d",
+      "newUserName": "valeria",
+      "newLastName": "piedrahita",
+      "newPhone": "31313131",
+      "newEmail": "valetqm2002@gmail.com",
+      "newPassword": "asdf"
+    }
   ]
 }
