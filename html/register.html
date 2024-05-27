@@ -3,66 +3,164 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/CSS/register.css" />
+    <link rel="stylesheet" href="/css/register.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/footer.css">
     <title>Form de Registro</title>
   </head>
   <body>
     <header>
-      <div class="nav-container">
-        <nav>
-          <div class="menu-icon">
-            <img
-              src="https://img.icons8.com/ios-filled/50/ffffff/back.png"
-              alt="back"
-            />
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="w-25">
+            <img class="w-50" src="/assets/LOGOS/vinumBlanco.png" alt="#" />
           </div>
-          <input type="checkbox" name="" id="check" />
-          <div class="menu-items">
-            <h1 class="tittle-menu-mobile">Vinum</h1>
-            <label for="check" class="hamburger-menu">
-              <img
-                src="https://img.icons8.com/ios-filled/50/ffffff/menu.png"
-                alt="menu"
-              />
-            </label>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="/html/homePage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="./marketplace.html"
+                  >Compras</a
+                >
+              </li>
+              <!-- <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="/HTML/membresia.html"
+                  >Subscripción</a
+                >
+              </li> -->
+              <!-- <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Comunidad</a
+                >
+              </li> -->
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#foot"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Ayuda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="/html/shoppingCart.html"
+                >
+                  <i class="bi bi-cart3"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="/HTML/login.html"
+                  >Login /</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="/html/login.html"
+                  >Sing Up
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="/html/register.html"
+                >
+                  <i class="bi bi-people"></i>
+                </a>
+              </li>
+            </ul>
           </div>
-          <ul>
-            <h1>Vinum</h1>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Tienda</a></li>
-            <li><a href="#">Suscripción</a></li>
-            <li><a href="#">Comunidad</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Ayuda</a></li>
-            <li>
-              <a href=""></a
-              ><img
-                src="https://img.icons8.com/?size=100&id=9671&format=png&color=FFFFFF"
-                height="35px"
-                width="35px"
-                alt=""
-              />
-            </li>
-            <li>
-              <a href=""> Iniciar Sesión </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
+    <!-- <header>
+      <nav id="navbar_desktop">
+        <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+        <a href="/html/homePage.html"><p id="home_navbar_desktop">Home</p></a>
+        <a href="/html/marketplace.html"><p id="shop_navbar_desktop">Tienda</p></a>
+        <a href="/html/homePage.html/"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+        <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
+        <a href="/html/shoppingCart.html"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
+        <a href="/html/login.html" id="user_navbar_desktop">
+            <p id="loginout_navbar_desktop">Log in / Sing Up</p>
+            <box-icon id="icon_user_navbar_desktop" size="40px" name='user' type='solid' color='#ffffff' ></box-icon>
+        </a>
+    </nav>
+    <nav id="navbar_mobile">
+        <a href="/html/homePage.html"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+        <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+        <a href="/html/shoppingCart.html"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+        <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
+    </nav>
+      </div>
+    </header> -->
 
     <main>
       <div class="container">
         <h2 class="login-tittle">Bienvenido</h2>
 
         <!-- login form -->
-        <form action="#">
+        <form  id="form_register" method="post">
           <div class="form-group">
             <label for="name">Nombre:</label>
             <input type="text" id="name" name="name" required />
@@ -74,15 +172,17 @@
           <div class="form-group">
             <label for="phone">Numero de Telefono:</label>
             <input type="tel" id="phone" name="phone" required />
+          </div>   
+          <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required />
           </div>
-
           <div class="form-group">
             <label for="password">Contraseña:</label>
             <input type="password" id="password" name="password" required />
           </div>
-
           <div class="form-group">
-            <button type="submit">Registrarme</button>
+            <button id="submit" type="submit">Registrarme</button>
           </div>
 
           <!-- <a href="#">¿Olvidaste tu contraseña?</a>
@@ -90,11 +190,35 @@
         </form>
       </div>
     </main>
-
-    <footer>
-      <div class="container">
-        <p>&copy; 2024 Vinum</p>
+    <footer class="footer_destok-mobile">
+      <div class="foot-one">
+        <div class="box-foot">
+              <figure>
+                  <a href=""><img class="img-footer" src="/assets/LOGOS/vinumBlanco.png" alt=""></a>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, accusamus!</p>
+              </figure>
+          </div>
+          <div class="box-foot">
+              <h2>SOBRE NOSOTROS</h2>
+              <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Principal</a>
+              <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Contactanos</a>
+              <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Soporte</a>
+              <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Terminos y servicios</a>
+            </div>
+          <div class="box-foot">
+              <h2>SIGUENOS</h2>
+              <div class="foot-social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-envelope-at"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                </div>
+          </div>
+        </div>
+      <div class="foot-two">
+        <small>&copy; 2024 <b>VINUM</b> - Todos Los Derechos Reservados.</small>
       </div>
     </footer>
+    <script src="../js/register.js"></script>
   </body>
 </html>
