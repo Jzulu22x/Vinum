@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#title_shopping_mobile{
+   display: none;
+}
+#container_product_mobile{
+   display: none;
+}
+#footer_mobile{
+   display: none;
+}
+body{
+   background-image: url(../assets/Shopping\ Cart\ \(1\).png);
+   background-size: cover;
+   font-family: "EB Garamond", serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+#navbar_mobile{
+   display: none;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+#navbar_desktop{
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   background-color: #4f0c17;
+}
+#navbar_desktop img{
+   margin-top: 3%;
+   width: 140px;
+}
+#navbar_desktop #home_navbar_desktop{
+   margin-top: 17%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#navbar_desktop #shop_navbar_desktop{
+   margin-top: 15%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#navbar_desktop #community_navbar_desktop{
+   margin-top: 10%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#navbar_desktop #subscription_navbar_desktop{
+   margin-top: 10%;
+   font-size: 25px;
+   font-weight: 600;
+}
+#navbar_desktop #about_us_navbar_desktop{
+   margin-top: 15%;
+   font-size: 15px;
+   font-weight: 400;
+}
+#navbar_desktop #help_navbar_desktop{
+   margin-top: 38%;
+   font-size: 15px;
+   font-weight: 400;
+}
+#navbar_desktop #loginout_navbar_desktop{
+   margin-top: 5%;
+   font-size: 20px;
+   font-weight: 600;
+}
+#user_navbar_desktop{
+   display: flex;
+   gap: 35px;
+}
+#icon_user_navbar_desktop{
+   margin-top: 4%;
+}
+#cart_desktop{
+   margin-top: 5%;
+}
+#title_shopping_desktop{
+   font-size: 60px;
+   color: white;
+   display: flex;
+   margin-left: 25%;
+   margin-top: 2%;
+   padding-bottom: 2%;
+   width: 50%;
+   justify-content: center;
+   border-bottom: 3px solid white;
+}
+#container_product_desktop{
+   display: flex;
+   width: 50%;
+   margin-left: 25%;
+   margin-top: 3%;
+   background-color: #764640;
+   padding: 2%;
+   border-radius: 50px;
+}
+#container_product_desktop img{
+   width: 180px;
+   margin-right: 2%;
+}
+#squeare_desciption_desktop{
+   background-color: #36040D;
+   width: 75%;
+   color: white;
+   border-radius: 20px;
+   padding-bottom: 5%;
+}
+#squeare_desciption_desktop h2{
+   margin-left: 8%;
+   margin-top: 3%;
+   margin-bottom: 3%;
+   font-size: 38px;
+}
+#button_pay_desktop {
+   display: flex;
+   gap: 10%;
+   margin-left: 20%;
+}
+#button_pay_desktop h5{
+   margin-top: 2%;
+   font-size: 20px;
+}
+#button_pay_desktop button{
+   display: flex;
+   gap: 10px;
+   background-color: #764640;
+   justify-content: space-around;
+   padding: 2%;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+#button_pay_desktop button p{
+   font-size: 25px;
+   color: white;
+}
+#footer_desktop{
+   margin-top: 4%;
+   width: 50%;
+   margin-left: 25%;
+}
+#subtotal_desktop{
+   display: flex;
+   color: white;
+   gap: 30px;
+   justify-content: center;
+   background-color: #36040D;
+   padding: 2%;
+   padding-bottom: 3%;
+}
+#subtotal_desktop #title{
+   font-size: 45px;
+   font-weight: 600;
+}
+#subtotal_desktop #price_desktop{
+   font-size: 30px;
+   font-weight: 400;
+   margin-top: 1.2%;
+}
+#total_desktop{
+   display: flex;
+   color: white;
+   gap: 30px;
+   justify-content: center;
+   padding: 2%;
+   padding-bottom: 3%;
+}
+#total_desktop #title{
+   font-size: 45px;
+   font-weight: 600;
+}
+#total_desktop #price_desktop{
+   font-size: 30px;
+   font-weight: 400;
+   margin-top: 1.2%;
+}
+#buttons_desktop{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 6%;
+   margin-bottom: 10%;
+}
+#buttons_desktop #go_pay{
+   background-color: #764640;
+   border: none;
+   color: white;
+   font-size: 25px;
+   padding: 3%;
+   border-radius: 10px;
+}
+#buttons_desktop #keep_buying{
+   background-color: #764640;
+   border: none;
+   color: white;
+   font-size: 25px;
+   padding: 3%;
+   border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+   body{
+      background-image: url(../assets/Vinum\ Mobile.png);
+      background-size: cover;
+      font-family: "EB Garamond", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+   }
+   #navbar_desktop{
+      display: none;
+   }
+   #navbar_mobile{
+      display: flex;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      background-color: #764640;
+   }
+   #navbar_mobile img{
+      width: 20%;
+      margin-left: 35%;
+      margin-top: 1.5%;
+   }
+   #navbar_mobile #left_row{
+      margin-left: 50%;
+   }
+   #navbar_mobile #cart{
+      margin-left: -100%;
+      margin-top: -5%;
+   }
+   #navbar_mobile #menu{
+      margin-left: -30%;
+   }
+   #title_shopping_desktop{
+      display: none;
+   }
+   #title_shopping_mobile{
+      display: flex;
+      color: white;
+      width: 100%;
+      justify-content: center;
+      margin-top: 10%;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      padding: 3%;
+   }
+   #container_product_desktop{
+      display: none;
+   }
+   #container_product_mobile{
+      display: flex;
+      margin-top: 8%;
+      width: 80%;
+      margin-left: 10%;
+      background-color: #764640;
+      padding: 2%;
+      border-radius: 10px;
+   }
+   #container_product_mobile img{
+      width: 30%;
+   }
+   #squeare_desciption_mobile{
+      background-color: #36040D;
+      width: 80%;
+      border-radius: 10px;
+      color: white;
+   }
+   #squeare_desciption_mobile h2{
+      margin-left: 6%;
+      margin-top: 4%;
+   }
+   #button_pay_mobile{
+      display: flex;
+      margin-top: 5%;
+      margin-left: 14%;
+      gap: 10px;
+   }
+   #button_pay_mobile button{
+      display: flex;
+      border: none;
+      background-color: #764640;
+      color: white;
+      width: 90px;
+      justify-content: space-around;
+      padding: 2%;
+      border-radius: 10px;
+      gap: 6px;
+   }
+   #button_pay_mobile button p {
+      margin-top: 4%;
+   }
+   #button_pay_mobile h5{
+      margin-top: 3%;
+      font-size: 16px;
+   }
+   #footer_desktop{
+      display: none;
+   }
+   #footer_mobile{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10%;  
+   }
+   #subtotal_mobile{
+      display: flex;
+      color: white;
+      gap: 15px;
+      justify-content: center;
+      background-color: #36040D;
+      padding: 2%;
+      padding-bottom: 2%;
+   }
+   #subtotal_mobile #title{
+      font-size: 40px;
+      font-weight: 600;
+   }
+   #subtotal_mobile #price_mobile{
+      font-size: 25px;
+      margin-top: 3%;
+   }
+   #total_mobile{
+      display: flex;
+      color: white;
+      gap: 15px;
+      justify-content: center;
+      padding: 2%;
+      padding-bottom: 2%;
+   }
+   #total_mobile #title{
+      font-size: 40px;
+      font-weight: 600;
+   }
+   #total_mobile #price_mobile{
+      font-size: 25px;
+      margin-top: 3%;
+   }
+   #buttons_mobile{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 6%;
+   }
+   #buttons_mobile #go_pay{
+      background-color: #764640;
+      border: none;
+      color: white;
+      font-size: 25px;
+      padding: 3%;
+      border-radius: 10px;
+   }
+   #buttons_mobile #keep_buying{
+      background-color: #764640;
+      border: none;
+      color: white;
+      font-size: 25px;
+      padding: 3%;
+      border-radius: 10px;
+   }
+ }
