@@ -12,7 +12,7 @@
     margin-top: 12%;
 }
 
-.footer_destok-mobile .foot-one{
+.foot-one{
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -100,23 +100,21 @@
 }
 
 @media screen and (max-width: 600px){
- .footer_destok-mobile{
-    display: grid;
-    width: 90%;
+    .footer_destok-mobile{
+        width: 100%;
+            grid-gap: 30px;
+            padding: 15% 10%;
+            text-align: center;
+            margin: auto;
+            margin-top: 80%;
+     }
+     .foot-one{
+        display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-gap: 30px;
-        padding: 35px 0;
-        text-align: center;
-        margin: auto;
-        flex-direction: column;
- }
- .foot-one{
-        width: 90%;
-        grid-template-columns: repeat(1,1fr);
-        grid-gap: 30px;
-        padding: 35px 0;
-        text-align: center;
-    
-    }
+            width: 50%;
+            grid-gap: 30px;
+            padding: 35px 0;
+            text-align: center;
+        }
 }
 
