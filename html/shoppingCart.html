@@ -5,31 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/shoppingCart.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/footer.css">
     <title>Carrito de compras</title>
 </head>
-<body>
-    <header>
+<body><header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="w-25">
+          <img class="w-50" src="/assets/LOGOS/vinumBlanco.png" alt="#" />
+        </div>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="/html/homePage.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./marketplace.html"
+                >Compras</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="/HTML/membresia.html"
+                >Subscripción</a
+              >
+            </li> -->
+            <!-- <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#"
+                >Comunidad</a
+              >
+            </li> -->
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#foot"
+                >Sobre Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#"
+                >Ayuda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="/html/shoppingCart.html"
+              >
+                <i class="bi bi-cart3"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="/HTML/login.html"
+                >Login /</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="/html/login.html"
+                >Sing Up
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="/html/register.html"
+              >
+                <i class="bi bi-people"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <!-- <header>
         <nav id="navbar_desktop">
-            <a href="#"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
-            <a href="#"><p id="home_navbar_desktop">Home</p></a>
-            <a href="#"><p id="shop_navbar_desktop">Tienda</p></a>
-            <a href="#"><p id="subscription_navbar_desktop">Suscripcion</p></a>
-            <a href="#"><p id="community_navbar_desktop">Comunidad</p></a>
-            <a href="#"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
+            <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="/html/homePage.html"><p id="home_navbar_desktop">Home</p></a>
+            <a href="/html/marketplace.html"><p id="shop_navbar_desktop">Tienda</p></a>
+            <a href="/html/homePage.html/"><p id="about_us_navbar_desktop">Sobre Nosotros</p></a>
             <a href="#"><p id="help_navbar_desktop">Ayuda</p></a>
-            <a href="#"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
-            <a href="#" id="user_navbar_desktop">
+            <a href="/html/shoppingCart.html"><box-icon id="cart_desktop" size="50px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="/html/login.html" id="user_navbar_desktop">
                 <p id="loginout_navbar_desktop">Log in / Sing Up</p>
                 <box-icon id="icon_user_navbar_desktop" size="40px" name='user' type='solid' color='#ffffff' ></box-icon>
             </a>
         </nav>
         <nav id="navbar_mobile">
-            <a href="#"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
-            <a href="#"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
-            <a href="#"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
+            <a href="/html/homePage.html"><box-icon id="left_row" size="30px" name='left-arrow-alt' color='#ffffff' ></box-icon></a>
+            <a href="/html/homePage.html"><img src="../assets/LOGOS/vinumBlanco.png" alt="Logo Vinum Color Blanco"></a>
+            <a href="/html/shoppingCart.html"><box-icon id="cart" size="30px" name='cart' color='#ffffff' ></box-icon></a>
             <a href="#"><box-icon id="menu" size="30px" name='menu' color='#ffffff' ></box-icon></a>
         </nav>
-    </header>
+    </header> -->
     <main>
         <h1 id="title_shopping_mobile">Carrito de compras</h1>
         <h1 id="title_shopping_desktop">Carrito de compras</h1>
@@ -89,10 +204,39 @@
                 <p id="price_mobile">290.99 $USD</p>
             </div>
             <div id="buttons_mobile">
-                <button id="go_pay">Go Pay</button>
+                <button id="go_pay">Go Pay</button>             
                 <button id="keep_buying">Keep Buying</button>
             </div>
         </div>
     </footer>
+    <footer class="footer_destok-mobile">
+        <div class="foot-one">
+          <div class="box-foot">
+                <figure>
+                    <a href=""><img class="img-footer" src="/assets/LOGOS/vinumBlanco.png" alt=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, accusamus!</p>
+                </figure>
+            </div>
+            <div class="box-foot">
+                <h2>SOBRE NOSOTROS</h2>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Principal</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Contactanos</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Soporte</a>
+                <a href="" class="type-foot"><i class="bi bi-chevron-compact-right"></i>Terminos y servicios</a>
+              </div>
+            <div class="box-foot">
+                <h2>SIGUENOS</h2>
+                <div class="foot-social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                  </div>
+            </div>
+          </div>
+        <div class="foot-two">
+          <small>&copy; 2024 <b>VINUM</b> - Todos Los Derechos Reservados.</small>
+        </div>
+      </footer>
 </body>
 </html>

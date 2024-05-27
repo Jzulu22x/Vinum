@@ -9,6 +9,7 @@
 .footer_destok-mobile{
     width: 100%;
     background-color:#000000;
+    margin-top: 12%;
 }
 
 .footer_destok-mobile .foot-one{
@@ -116,4 +117,7 @@
         padding: 35px 0;
         text-align: center;
     
-    }}  
+    }
+    .foot-two
+}
+

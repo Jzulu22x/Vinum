@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #4f0c17;
-  background-image: url(/assets/94852.jpg);
+  background-image: url(/assets/copa_vino_grande.jpg);
 }
 
 header {
@@ -28,34 +28,69 @@ header {
   padding: 0px 0;
 }
 
-.nav-container {
-  background-color: #73453f;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 10px;
+#navbar_mobile{
+  display: none;
 }
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-a {
-  color: rgb(255, 255, 255);
+a{
   text-decoration: none;
+  color: white;
+}
+#navbar_desktop{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #73453f;
+}
+#navbar_desktop img{
+  margin-top: 3%;
+  width: 140px;
+}
+#navbar_desktop #home_navbar_desktop{
+  margin-top: 17%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #shop_navbar_desktop{
+  margin-top: 15%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #community_navbar_desktop{
+  margin-top: 10%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #subscription_navbar_desktop{
+  margin-top: 10%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #about_us_navbar_desktop{
+  margin-top: 15%;
+  font-size: 15px;
+  font-weight: 400;
+}
+#navbar_desktop #help_navbar_desktop{
+  margin-top: 38%;
+  font-size: 15px;
+  font-weight: 400;
+}
+#navbar_desktop #loginout_navbar_desktop{
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: 600;
+}
+#user_navbar_desktop{
+  display: flex;
+  gap: 35px;
+}
+#icon_user_navbar_desktop{
+  margin-top: 4%;
+}
+#cart_desktop{
+  margin-top: 5%;
 }
 
 main {

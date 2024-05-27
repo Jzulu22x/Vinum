@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +6,17 @@
 }
 
 body {
-
   background-image: url(/assets/fondo-pag.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+a:hover{
+  transform: scale(1.1);
+  transition: all .8s ease-in-out; 
 }
 .name-vinump-2 {
   width: 100px;
@@ -80,12 +87,6 @@ body {
   margin-top: 100px;
 }
 
-.welcome {
-  font-size: larger;
-  font-weight: bold;
-  font-size: xx-large;
-}
-
 .icon-wine {
   width: 100px;
   height: 30px;
@@ -110,54 +111,96 @@ header {
 body {
   background-color: #4f0c17;
 }
-.nav {
-  background-color: #4f0c17;
+#navbar_mobile{
+  display: none;
 }
-.logo {
-  width: 70px;
-  height: 20px;
-  position: relative;
-  left: 100px;
-}
-.nav_list {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  gap: 28px;
-}
-.li {
-  display: flex;
-  text-align: center;
-}
-.li:hover {
-  color: #ffe600;
-  transform: scale(1.1);
-}
-
-.nav_list li a {
+a{
   text-decoration: none;
   color: white;
 }
-.abrir_menu,
-.cerrar_menu {
-  display: none;
-}
-.container_img {
-  width: 70vw;
-  max-width: 1000px;
-  min-width: 320px;
-  margin: auto;
-}
-img {
+#navbar_desktop{
+  display: flex;
   width: 100%;
-  border-radius: 5px;
-  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+  justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #764640;
 }
-.cart {
-  display: none;
+#navbar_desktop img{
+  margin-top: 3%;
+  width: 140px;
+}
+#navbar_desktop #home_navbar_desktop{
+  margin-top: 17%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #shop_navbar_desktop{
+  margin-top: 15%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #community_navbar_desktop{
+  margin-top: 10%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #subscription_navbar_desktop{
+  margin-top: 10%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#navbar_desktop #about_us_navbar_desktop{
+  margin-top: 15%;
+  font-size: 15px;
+  font-weight: 400;
+}
+#navbar_desktop #help_navbar_desktop{
+  margin-top: 38%;
+  font-size: 15px;
+  font-weight: 400;
+}
+#navbar_desktop #loginout_navbar_desktop{
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: 600;
+}
+#user_navbar_desktop{
+  display: flex;
+  gap: 35px;
+}
+#icon_user_navbar_desktop{
+  margin-top: 4%;
+}
+#cart_desktop{
+  margin-top: 5%;
 }
 @media screen and (max-width: 768px) {
   /* header */
+  #navbar_desktop{
+    display: none;
+ }
+ #navbar_mobile{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #764640;
+ }
+ #navbar_mobile img{
+    width: 20%;
+    margin-left: 35%;
+    margin-top: 1.5%;
+ }
+ #navbar_mobile #left_row{
+    margin-left: 50%;
+ }
+ #navbar_mobile #cart{
+    margin-left: -100%;
+    margin-top: -5%;
+ }
+ #navbar_mobile #menu{
+    margin-left: -30%;
+ }
   .head {
     display: flex;
     align-items: center;
@@ -331,6 +374,9 @@ img {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
+  }
+  #navbar_desktop{
+    display: none;
   }
   .sections_one {
     display: flex;
