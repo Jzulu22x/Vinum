@@ -13,6 +13,10 @@
 #navbar_mobile{
    display: none;
 }
+#navbarTogglerDemo02 {
+   font-family: garamond;
+   font-size: x-large;
+}
 #title_shopping_mobile{
    display: none;
 }
