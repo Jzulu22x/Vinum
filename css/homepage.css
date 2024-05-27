@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,51 +14,54 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
 }
-a:hover{
-  transform: scale(1.1);
-  transition: all .8s ease-in-out; 
+
+
+
+a:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
 }
-.name-vinump-2 {
+/* .name-vinump-2 {
   width: 100px;
-}
-.logo-vinum{
+} */
+/* .logo-vinum {
   width: 100px;
-}
-.nav-item:hover{
+} */
+/* .nav-item:hover {
   transform: scale(1.1);
-}
+} */
 #cart {
   position: relative;
   top: -2px;
   color: white;
   cursor: pointer;
 }
-#cart:hover {
+/* #cart:hover {
   color: #ffe600;
   transform: scale(1.1);
-}
+} */
 
-#login {
+/* #login {
   position: relative;
   top: -2px;
   color: white;
   cursor: pointer;
-}
-#login:hover {
+} */
+/* #login:hover {
   color: #ffe600;
   transform: scale(1.1);
-}
+} */
 
-.head {
+/* .head {
   display: flex;
   justify-content: center space-around;
   font-size: large;
   height: 20px;
-}
+} */
 
-#navbarTogglerDemo02{
+#navbarTogglerDemo02 {
   font-family: garamond;
-  font-size:x-large;
+  font-size: x-large;
 }
 
 .wine-red {
@@ -71,7 +74,6 @@ a:hover{
   border-radius: 20px;
   position: relative;
   top: 40px;
-
 }
 .img-wine {
   width: 200px;
@@ -85,12 +87,6 @@ a:hover{
   font-size: x-large;
   text-align: center;
   margin-top: 100px;
-}
-
-.welcome {
-  font-size: larger;
-  font-weight: bold;
-  font-size: xx-large;
 }
 
 .icon-wine {
@@ -117,14 +113,14 @@ header {
 body {
   background-color: #4f0c17;
 }
-#navbar_mobile{
+#navbar_mobile {
   display: none;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-#navbar_desktop{
+#navbar_desktop {
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -132,81 +128,81 @@ a{
   padding-bottom: 1%;
   background-color: #764640;
 }
-#navbar_desktop img{
+#navbar_desktop img {
   margin-top: 3%;
   width: 140px;
 }
-#navbar_desktop #home_navbar_desktop{
+#navbar_desktop #home_navbar_desktop {
   margin-top: 17%;
   font-size: 25px;
   font-weight: 600;
 }
-#navbar_desktop #shop_navbar_desktop{
+#navbar_desktop #shop_navbar_desktop {
   margin-top: 15%;
   font-size: 25px;
   font-weight: 600;
 }
-#navbar_desktop #community_navbar_desktop{
+#navbar_desktop #community_navbar_desktop {
   margin-top: 10%;
   font-size: 25px;
   font-weight: 600;
 }
-#navbar_desktop #subscription_navbar_desktop{
+#navbar_desktop #subscription_navbar_desktop {
   margin-top: 10%;
   font-size: 25px;
   font-weight: 600;
 }
-#navbar_desktop #about_us_navbar_desktop{
+#navbar_desktop #about_us_navbar_desktop {
   margin-top: 15%;
   font-size: 15px;
   font-weight: 400;
 }
-#navbar_desktop #help_navbar_desktop{
+#navbar_desktop #help_navbar_desktop {
   margin-top: 38%;
   font-size: 15px;
   font-weight: 400;
 }
-#navbar_desktop #loginout_navbar_desktop{
+#navbar_desktop #loginout_navbar_desktop {
   margin-top: 5%;
   font-size: 20px;
   font-weight: 600;
 }
-#user_navbar_desktop{
+#user_navbar_desktop {
   display: flex;
   gap: 35px;
 }
-#icon_user_navbar_desktop{
+#icon_user_navbar_desktop {
   margin-top: 4%;
 }
-#cart_desktop{
+#cart_desktop {
   margin-top: 5%;
 }
 @media screen and (max-width: 768px) {
   /* header */
-  #navbar_desktop{
+  #navbar_desktop {
     display: none;
- }
- #navbar_mobile{
+  }
+  #navbar_mobile {
     display: flex;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #764640;
- }
- #navbar_mobile img{
+  }
+  #navbar_mobile img {
     width: 20%;
     margin-left: 35%;
     margin-top: 1.5%;
- }
- #navbar_mobile #left_row{
+  }
+  #navbar_mobile #left_row {
     margin-left: 50%;
- }
- #navbar_mobile #cart{
+  }
+  #navbar_mobile #cart {
     margin-left: -100%;
     margin-top: -5%;
- }
- #navbar_mobile #menu{
+  }
+  #navbar_mobile #menu {
     margin-left: -30%;
- }
+  }
   .head {
     display: flex;
     align-items: center;
@@ -381,7 +377,7 @@ a{
     font-size: 1.5rem;
     font-weight: bold;
   }
-  #navbar_desktop{
+  #navbar_desktop {
     display: none;
   }
   .sections_one {
