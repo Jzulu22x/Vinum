@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #4f0c17;
-  background-image: url(/assets/94852.jpg);
+  background-image: url(/assets/copa_vino_grande.jpg);
 }
 
 header {
@@ -17,14 +17,14 @@ header {
   color: #fff;
   padding: 0px 0;
 }
-#navbar_mobile{
+#navbar_mobile {
   display: none;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-#navbar_desktop{
+#navbar_desktop {
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -32,53 +32,53 @@ a{
   padding-bottom: 1%;
   background-color: #764640;
 }
-#navbar_desktop img{
+#navbar_desktop img {
   margin-top: 3%;
   width: 140px;
 }
-#navbar_desktop #home_navbar_desktop{
+#navbar_desktop #home_navbar_desktop {
   margin-top: 17%;
   font-size: 25px;
   font-weight: 600;
 }
-#navbar_desktop #shop_navbar_desktop{
+#navbar_desktop #shop_navbar_desktop {
   margin-top: 15%;
   font-size: 25px;
   font-weight: 600;
 }
-#navbar_desktop #community_navbar_desktop{
+#navbar_desktop #community_navbar_desktop {
   margin-top: 10%;
   font-size: 25px;
   font-weight: 600;
 }
-#navbar_desktop #subscription_navbar_desktop{
+#navbar_desktop #subscription_navbar_desktop {
   margin-top: 10%;
   font-size: 25px;
   font-weight: 600;
 }
-#navbar_desktop #about_us_navbar_desktop{
+#navbar_desktop #about_us_navbar_desktop {
   margin-top: 15%;
   font-size: 15px;
   font-weight: 400;
 }
-#navbar_desktop #help_navbar_desktop{
+#navbar_desktop #help_navbar_desktop {
   margin-top: 38%;
   font-size: 15px;
   font-weight: 400;
 }
-#navbar_desktop #loginout_navbar_desktop{
+#navbar_desktop #loginout_navbar_desktop {
   margin-top: 5%;
   font-size: 20px;
   font-weight: 600;
 }
-#user_navbar_desktop{
+#user_navbar_desktop {
   display: flex;
   gap: 35px;
 }
-#icon_user_navbar_desktop{
+#icon_user_navbar_desktop {
   margin-top: 4%;
 }
-#cart_desktop{
+#cart_desktop {
   margin-top: 5%;
 }
 main {
@@ -164,27 +164,27 @@ footer {
 }
 
 @media (max-width: 858px) {
-  #navbar_desktop{
+  #navbar_desktop {
     display: none;
   }
-  #navbar_mobile #menu{
+  #navbar_mobile #menu {
     margin-left: -30%;
   }
-  #navbar_mobile{
+  #navbar_mobile {
     display: flex;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #764640;
   }
-  #navbar_mobile img{
+  #navbar_mobile img {
     width: 20%;
     margin-left: 35%;
     margin-top: 1.5%;
   }
-  #navbar_mobile #left_row{
+  #navbar_mobile #left_row {
     margin-left: 50%;
   }
-  #navbar_mobile #cart{
+  #navbar_mobile #cart {
     margin-left: -100%;
     margin-top: -5%;
   }
