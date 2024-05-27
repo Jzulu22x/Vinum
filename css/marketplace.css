@@ -305,7 +305,7 @@ img {
                     padding: 50px 0 50px 0;
                  }
                  .swiper-slide{
-                    width: 300px;
+                    width: 400px;
                     height: 595px;
                     background-color: #73453f;
                     box-shadow: 0 0 20px rgba(0,0,0,0.4);
@@ -318,7 +318,6 @@ img {
                     align-items: center;
                     margin-bottom: 40px;
                  }
-
 
                  .icons i {
                     font-size: 20px;
@@ -357,21 +356,28 @@ img {
                  .product-img img{
                     width: 100px;
                  }
+                 .btn-shop{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  
+                 }
                  .btn-1{
-                    display: inline-block;
+                    display:flex;
                     padding: 13px 55px;
-                    border: 2px solid #4f0c17;
+                    border: 2px solid #000000;
                     border-radius: 25px;
                     color: white;
                     text-decoration: none;
                     margin-top: 40px;
+
                  }
                  .btn-1:hover{
                     transform: scale(1.1);
                     transition: all.1s ease-in-out;
                     cursor: pointer;
-                    background-color: #1c1c1c;
-                    box-shadow: 2px 3px 5px rgba(206, 137, 137, 0.875);
+                    background-color: #470d0d;
+                    box-shadow: 2px 3px 10px rgba(206, 137, 137, 0.875);
 
                  }
                  /* buttons after and before */
