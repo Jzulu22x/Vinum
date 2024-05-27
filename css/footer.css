@@ -12,7 +12,7 @@
     margin-top: 12%;
 }
 
-.footer_destok-mobile .foot-one{
+.foot-one{
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -74,7 +74,7 @@
     }}
 .foot-two{
     background-color: #2d2d2d55;
-    padding: 15px 10px;
+    padding: 3% 16%;
     text-align: center;
     color: white;
 }
@@ -101,9 +101,7 @@
 
 @media screen and (max-width: 600px){
  .footer_destok-mobile{
-    display: grid;
-    width: 90%;
-        grid-template-columns: repeat(1,1fr);
+    width: 100%;
         grid-gap: 30px;
         padding: 35px 0;
         text-align: center;
@@ -111,13 +109,11 @@
         flex-direction: column;
  }
  .foot-one{
-        width: 90%;
-        grid-template-columns: repeat(1,1fr);
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+        width: 50%;
         grid-gap: 30px;
         padding: 35px 0;
         text-align: center;
-    
     }
-    .foot-two
 }
-
