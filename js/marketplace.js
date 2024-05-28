@@ -71,6 +71,7 @@ let sendObject = async (objectAddCar) => {
         });
         if (response.ok) {
             console.log("Product added to cart successfully"); // Logging success message
+            alert("Producto Agregado al Carrito")
         } else {
             console.error("Error adding product to cart:", response.status); // Logging error message if request fails
         }
