@@ -3,6 +3,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: garamond;
 }
 #title_shopping_mobile{
    display: none;
@@ -12,6 +13,19 @@
 }
 #footer_mobile{
    display: none;
+}
+#navbarTogglerDemo02 {
+   font-family: garamond;
+   font-size: x-large;
+}
+header {
+   background-color: #4f0c17;
+   height: 80px;
+}
+
+a:hover {
+   transform: scale(1.2);
+   transition: all 0.5s ease-in-out;
 }
 body{
    background-image: url(../assets/Shopping\ Cart\ \(1\).png);

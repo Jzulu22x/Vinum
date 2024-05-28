@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: garamond;
 }
 
 body {
@@ -12,10 +13,18 @@ body {
   background-image: url(/assets/copa_vino_grande.jpg);
 }
 
+#navbarTogglerDemo02 {
+  font-family: garamond;
+  font-size: x-large;
+}
+a:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
 header {
-  background-color: #73453f;
-  color: #fff;
-  padding: 0px 0;
+  background-color: #4f0c17;
+  height: 80px;
+  gap: 20px;
 }
 #navbar_mobile {
   display: none;

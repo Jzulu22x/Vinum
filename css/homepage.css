@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: garamond;
 }
 
 body {
@@ -105,10 +106,8 @@ a:hover {
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: #4f0c17;
+  height: 80px;
 }
 body {
   background-color: #4f0c17;
