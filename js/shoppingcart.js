@@ -1,4 +1,5 @@
-const divShoppingCart = document.querySelector("main")
+const divShoppingCart = document.querySelector("#add_objects_js_desktop")
+let count = 1
 
 let getCartElements = async () => {
     let getElements = await fetch ("http://localhost:3000/cart")
@@ -6,20 +7,20 @@ let getCartElements = async () => {
     getElementsCode.forEach(element => {
         divShoppingCart.innerHTML += `
         <div id="container_product_desktop">
-        <img src="${element.image}" alt="">
-        <div id="squeare_desciption_desktop">
-            <h2>${element.name}</h2>
-            <div id="button_pay_desktop">
-                <h5>${element.price}</h5>
-                <button>
-                    <box-icon name='trash' size="25px" type='solid' color='#ffffff' ></box-icon>
-                    <box-icon name='plus-circle' size="25px" color='#ffffff' ></box-icon>
-                    <p>1</p>
-                    <box-icon name='minus-circle' size="25px" color='#ffffff' ></box-icon>
-                </button>
+            <img src="${element.image}" alt="">
+            <div id="squeare_desciption_desktop">
+                <h2>${element.name}</h2>
+                <div id="button_pay_desktop">
+                    <h5>${element.price}</h5>
+                    <button>
+                        <box-icon name='trash' size="25px" type='solid' color='#ffffff' ></box-icon>
+                        <box-icon name='plus-circle' size="25px" color='#ffffff' ></box-icon>
+                        <p>${count}</p>
+                        <box-icon name='minus-circle' size="25px" color='#ffffff' ></box-icon>
+                    </button>
+                </div>
             </div>
-        </div> 
-      </div>`
+        </div>`
     })
 }
 

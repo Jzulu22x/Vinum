@@ -156,6 +156,7 @@ a{
 }
 #button_pay_desktop button p{
    font-size: 25px;
+   margin-top: -4%;
    color: white;
 }
 #footer_desktop{

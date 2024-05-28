@@ -6,128 +6,58 @@
       "image": "https://casagrajales.com.co/wp-content/uploads/2021/02/VINO-MOSCATEL-VINOS-DULCES-CASA-GRAJALES-COLOMBIA-INFORMATIVA-2-608x1024.png",
       "name": "VINO MOSCATEL VALLE DE LA UNIÓN",
       "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región.",
-      "price": 1000
+      "price": 11000
     },
     {
       "id": "2",
       "image": "https://casagrajales.com.co/wp-content/uploads/2022/08/VINO-ABOCADO-NACIONAL-CASA-GRAJALES-LICOR.png",
       "name": "VINO ABOCADO",
       "description": "Vino dulce pasado por barrica, con sabor más robusto y suave al paladar. Elaborado a partir de uva semillón y cereza en mostos importados de Argentina y uvas propias de la región",
-      "price": 1000
+      "price": 10000
     },
     {
       "id": "3",
       "image": "https://casagrajales.com.co/wp-content/uploads/2021/01/GRAN-SIDON-CASA-GRAJALES-608x1024.png",
       "name": "VINO DULCE GRAN SIDON",
       "description": "El añejamiento en barrica de roble, justifica su delicado y penetrante bouquet que lo identifica como un vino de cuerpo y sabor armónica.Elaborado a partir de uva cereza en mostos concentrados importados de Argentina y de uvas propias de la región",
-      "price": 1000
+      "price": 21000
     },
     {
       "id": "4",
       "image": "https://casagrajales.com.co/wp-content/uploads/2021/01/VINO-DULCE-MOSCATEL-CAJA-INFORMATIVO.png",
       "name": "VINO MOSCATEL VALLE DE LA UNIÓN CAJA 1 L",
       "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región",
-      "price": 1000
+      "price": 5000
     },
     {
       "id": "5",
       "image": "https://dislicoresqa.vtexassets.com/arquivos/ids/292695-800-auto?v=637944075225330000&width=800&height=auto&aspect=true ",
       "name": "VINO TINTO NAVARRO CORREAS COLECCION PRIVADA MALBEC",
       "description": "El vino tinto Navarro Correas Colección Privada es un vino argentino que viene por botella de 750 ML. El tipo de uva es Malbec 100%",
-      "price": 1000
+      "price": 1090
     },
     {
       "id": "6",
       "image": "https://dislicoresqa.vtexassets.com/arquivos/ids/280449-800-auto?v=637900830796130000&width=800&height=auto&aspect=true",
       "name": "VINO TINTO LA CELIA RESERVA MALBEC CABERNET FRANC",
       "description": "El vino tinto la Celia es un vino argentino reserva que viene por botella de 750 ML. El tipo de uva es 80% Malbec y 20% Cabernet Franc",
-      "price": 1000
+      "price": 1080
     },
     {
       "id": "7",
       "image": "https://dislicoresqa.vtexassets.com/arquivos/ids/336754-800-auto?v=638116875145770000&width=800&height=auto&aspect=true",
       "name": "VINO ESPUMOSO  PROSECCO MIONETTO BRUT GLERA",
       "description": "El vino Prosecco Mionetto Brut es un espumoso italiano que viene en botella de 750 ML. El tipo de uva es Glera 100%",
-      "price": 1000
+      "price": 12000
     },
     {
       "id": "8",
       "image": "https://dislicoresqa.vtexassets.com/arquivos/ids/282109-800-auto?v=637901730357530000&width=800&height=auto&aspect=true",
       "name": "VINO TINTO LAS MORAS RESERVA CABERNET SAUVIGNON SYRAH",
       "description": "El vino las Moras es un vino tinto argentino que viene por botella de 750 ML. El tipo de uva es 50% Cabernet Sauvignon y 50% Syrah",
-      "price": 1000
+      "price": 1200
     }
   ],
   "cart": [
-    {
-      "id": "5",
-      "image": "https://dislicoresqa.vtexassets.com/arquivos/ids/292695-800-auto?v=637944075225330000&width=800&height=auto&aspect=true ",
-      "name": "VINO TINTO NAVARRO CORREAS COLECCION PRIVADA MALBEC",
-      "description": "El vino tinto Navarro Correas Colección Privada es un vino argentino que viene por botella de 750 ML. El tipo de uva es Malbec 100%",
-      "price": 1000
-    },
-    {
-      "id": "4",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2021/01/VINO-DULCE-MOSCATEL-CAJA-INFORMATIVO.png",
-      "name": "VINO MOSCATEL VALLE DE LA UNIÓN CAJA 1 L",
-      "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región",
-      "price": 1000
-    },
-    {
-      "id": "2",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2022/08/VINO-ABOCADO-NACIONAL-CASA-GRAJALES-LICOR.png",
-      "name": "VINO ABOCADO",
-      "description": "Vino dulce pasado por barrica, con sabor más robusto y suave al paladar. Elaborado a partir de uva semillón y cereza en mostos importados de Argentina y uvas propias de la región",
-      "price": 1000
-    },
-    {
-      "id": "2",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2022/08/VINO-ABOCADO-NACIONAL-CASA-GRAJALES-LICOR.png",
-      "name": "VINO ABOCADO",
-      "description": "Vino dulce pasado por barrica, con sabor más robusto y suave al paladar. Elaborado a partir de uva semillón y cereza en mostos importados de Argentina y uvas propias de la región",
-      "price": 1000
-    },
-    {
-      "id": "1",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2021/02/VINO-MOSCATEL-VINOS-DULCES-CASA-GRAJALES-COLOMBIA-INFORMATIVA-2-608x1024.png",
-      "name": "VINO MOSCATEL VALLE DE LA UNIÓN",
-      "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región.",
-      "price": 1000
-    },
-    {
-      "id": "1",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2021/02/VINO-MOSCATEL-VINOS-DULCES-CASA-GRAJALES-COLOMBIA-INFORMATIVA-2-608x1024.png",
-      "name": "VINO MOSCATEL VALLE DE LA UNIÓN",
-      "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región.",
-      "price": 1000
-    },
-    {
-      "id": "1",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2021/02/VINO-MOSCATEL-VINOS-DULCES-CASA-GRAJALES-COLOMBIA-INFORMATIVA-2-608x1024.png",
-      "name": "VINO MOSCATEL VALLE DE LA UNIÓN",
-      "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región.",
-      "price": 1000
-    },
-    {
-      "id": "1",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2021/02/VINO-MOSCATEL-VINOS-DULCES-CASA-GRAJALES-COLOMBIA-INFORMATIVA-2-608x1024.png",
-      "name": "VINO MOSCATEL VALLE DE LA UNIÓN",
-      "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región.",
-      "price": 1000
-    },
-    {
-      "id": "1",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2021/02/VINO-MOSCATEL-VINOS-DULCES-CASA-GRAJALES-COLOMBIA-INFORMATIVA-2-608x1024.png",
-      "name": "VINO MOSCATEL VALLE DE LA UNIÓN",
-      "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región.",
-      "price": 1000
-    },
-    {
-      "id": "3",
-      "image": "https://casagrajales.com.co/wp-content/uploads/2021/01/GRAN-SIDON-CASA-GRAJALES-608x1024.png",
-      "name": "VINO DULCE GRAN SIDON",
-      "description": "El añejamiento en barrica de roble, justifica su delicado y penetrante bouquet que lo identifica como un vino de cuerpo y sabor armónica.Elaborado a partir de uva cereza en mostos concentrados importados de Argentina y de uvas propias de la región",
-      "price": 1000
-    }
   ]
 }
