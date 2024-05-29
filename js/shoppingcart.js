@@ -16,80 +16,64 @@ let getDataJson = async () => {
                 <div id="squeare_desciption_desktop">
                     <h2>${element.name}</h2>
                     <div id="button_pay_desktop">
-                        <span>${totalProductPrice}</span> <!-- Display the total price of the product -->
+                        <span class="priceDinamic">${element.price * countProduct}</span>
                         <button class="delete-btn" data-id="${element.id}">
                             <box-icon name='trash' size="25px" type='solid' color='#ffffff'></box-icon>
                         </button>
                         <button class="plus-btn">
                             <box-icon name='plus-circle' size="25px" color='#ffffff'></box-icon>
                         </button>
-                        <p>${count}</p>
+                        <!-- Aquí agregamos un identificador único para el párrafo -->
+                        <p class="count-product">${countProduct}</p>
                         <button class="minus-btn">
                             <box-icon name='minus-circle' size="25px" color='#ffffff'></box-icon>
                         </button>
                     </div>
                 </div>
-            </div>`;
-    });
-    // Display the total cart price in the UI
-    console.log(totalPrice); // Check if totalPrice updates correctly
-
-    // Event listeners for the buttons
-    divShoppingCart.querySelectorAll('.plus-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            const countElement = button.parentNode.querySelector('p');
-            let count = parseInt(countElement.textContent);
-            count++;
-            countElement.textContent = count;
-            updateTotalPrice(); // Update total price after changing quantity
-        });
+            </div>
+        `;
+        price = element.price;
+        id = element.id
     });
 
-    divShoppingCart.querySelectorAll('.minus-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            const countElement = button.parentNode.querySelector('p');
-            let count = parseInt(countElement.textContent);
-            if (count > 1) {
-                count--;
-                countElement.textContent = count;
-                updateTotalPrice(); // Update total price after changing quantity
+    // Ahora que hemos construido todo el HTML, lo asignamos a productCar.innerHTML
+    productCar.innerHTML = productsHTML;
+
+    // Seleccionamos el elemento del precio dinámico una sola vez
+    const priceDinamic = document.querySelector(".priceDinamic");
+
+    // Después de asignar el HTML, añadimos el event listener
+    productCar.addEventListener("click", (event) => {
+        if (event.target.classList.contains('plus-btn')) {
+            countProduct += 1;
+            // Una vez que incrementamos countProduct, actualizamos el valor del párrafo
+            priceDinamic.innerText = price * countProduct;
+            document.querySelector('.count-product').innerText = countProduct;
+        }
+    });
+    productCar.addEventListener("click", (event) => {
+        if (event.target.classList.contains('minus-btn')) {
+            if(countProduct > 1){
+                countProduct -= 1;
+                // Una vez que incrementamos countProduct, actualizamos el valor del párrafo
+                priceDinamic.innerText = price * countProduct;
+                document.querySelector('.count-product').innerText = countProduct;
             }
-        });
+        }
     });
-
-    divShoppingCart.querySelectorAll('.delete-btn').forEach(button => {
-        button.addEventListener('click', async (event) => {
-            event.preventDefault();
-            const productId = button.getAttribute('data-id');
+    
+    productCar.addEventListener("click", async (event) => {
+        if (event.target.classList.contains('delete-btn')) {
+            // Obtener el ID del producto a eliminar del atributo data-id del botón
+            const productId = event.target.dataset.id;
             await fetch(`http://localhost:3000/cart/${productId}`, {
-                method: "DELETE"
+                method: 'DELETE'
             });
-            updateCart(event);
-        });
+        }
     });
+    
 };
 
-// Function to calculate and update the total price of the cart
-const updateTotalPrice = () => {
-    let totalPrice = 0; // Initialize totalPrice within the function
-    divShoppingCart.querySelectorAll('#container_product_desktop').forEach(container => {
-        const priceElement = container.querySelector('span');
-        const countElement = container.querySelector('p');
-        const productPrice = parseFloat(priceElement.textContent);
-        const count = parseInt(countElement.textContent);
-        const totalProductPrice = productPrice * count; // Calculate the total price of the product
-        totalPrice += totalProductPrice; // Add to the total cart price
-        priceElement.textContent = totalProductPrice; // Update the total price of the product in the UI
-    });
-    // Display the total cart price in the console
-    console.log(totalPrice);
-};
+getDataJson();
 
-// Function to update the entire cart
-const updateCart = () => {
-    divShoppingCart.innerHTML = '';
-    getCartElements();
-};
 
-// Initial call to fetch and display cart elements
-getCartElements();
