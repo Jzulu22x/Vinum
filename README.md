@@ -106,7 +106,7 @@ https://www.canva.com/design/DAGFT6gWjl4/vvQuC3XUElxz1BbAFRdLrw/edit?utm_content
 
 A continuación presentamos el diagrama de flujo de las tecnologias que se usarán para el desarrollo del proyecto, lo podrán encontrar en el siguiente link:
 
-https://drive.google.com/file/d/18BGg_5mGCDNMeOXpLgUAtDMLEH7T5Vgy/view?usp=sharing
+[https://drive.google.com/file/d/18BGg_5mGCDNMeOXpLgUAtDMLEH7T5Vgy/view?usp=sharing](https://app.diagrams.net/#G18BGg_5mGCDNMeOXpLgUAtDMLEH7T5Vgy#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D)
 
 ---
 
