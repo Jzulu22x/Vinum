@@ -1,17 +1,16 @@
-const divShoppingCart = document.querySelector("#add_objects_js_desktop");
+const productCar = document.querySelector("#add_objects_js_desktop");
+let countProduct = 1;
 
-// Function to fetch cart data from the server and populate the shopping cart
-let getCartElements = async () => {
-    let totalPrice = 0; // Initialize totalPrice within the function
-    let getElements = await fetch("http://localhost:3000/cart");
-    let getElementsCode = await getElements.json();
-    getElementsCode.forEach(element => {
-        const productPrice = parseFloat(element.price);
-        let count = 1;
-        const totalProductPrice = productPrice * count; // Calculate the total price of the product
-        totalPrice += totalProductPrice; // Add to the total cart price
-        // Generate HTML for each product in the shopping cart
-        divShoppingCart.innerHTML += `
+let getDataJson = async () => {
+    let response = await fetch("http://localhost:3000/cart");
+    let data = await response.json();
+    let price
+    let id
+
+    let productsHTML = ''; // Aquí vamos a construir el HTML de todos los productos
+    data.forEach(element => {
+        // Construimos el HTML para cada producto y lo concatenamos a productsHTML
+        productsHTML += `
             <div id="container_product_desktop">
                 <img src="${element.image}" alt="">
                 <div id="squeare_desciption_desktop">
