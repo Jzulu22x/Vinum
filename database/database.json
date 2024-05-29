@@ -58,13 +58,5 @@
       "price": 1200
     }
   ],
-  "cart": [
-    {
-      "id": "5",
-      "image": "https://dislicoresqa.vtexassets.com/arquivos/ids/292695-800-auto?v=637944075225330000&width=800&height=auto&aspect=true ",
-      "name": "VINO TINTO NAVARRO CORREAS COLECCION PRIVADA MALBEC",
-      "description": "El vino tinto Navarro Correas Colección Privada es un vino argentino que viene por botella de 750 ML. El tipo de uva es Malbec 100%",
-      "price": 1090
-    }
-  ]
+  "cart": []
 }

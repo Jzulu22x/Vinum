@@ -70,8 +70,8 @@ let sendObject = async (objectAddCar) => {
             body: JSON.stringify(objectAddCar),
         });
         if (response.ok) {
-            console.log("Product added to cart successfully"); // Logging success message
-            alert("Producto Agregado al Carrito")
+            console.log("Product added to cart successfully"); // Logging success message 
+            alert("Producto Agregado al carrito")             
         } else {
             console.error("Error adding product to cart:", response.status); // Logging error message if request fails
         }
