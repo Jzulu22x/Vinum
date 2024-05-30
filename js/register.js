@@ -1,4 +1,3 @@
-import Swal from 'sweetalert2'
 
 //Const creation for Dom elements
 const userName = document.querySelector("#name");
@@ -10,9 +9,9 @@ const formRegister = document.querySelector("#form_register");
 const URL = "http://localhost:3000/users";
 
 //Creaction of event to set user register
-formRegister.addEventListener("submit", (event) => {
-  event.preventDefault();
-  setJSONserver();
+formRegister.addEventListener("submit", async (event) => {
+  event.preventDefault()
+  await setJSONserver()
 });
 
 //asyn function to connect to json.server
@@ -64,34 +63,29 @@ let setJSONserver = async () => {
         newPassword,
       };
 
-      await register(objectRegister);
 
-      const Toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 3000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-          toast.onmouseenter = Swal.stopTimer;
-          toast.onmouseleave = Swal.resumeTimer;
-        },
-      });
-      Toast.fire({
+
+      setTimeout(async () => {
+        await fetch(URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(objectRegister),
+        });
+
+        window.location.href = "./homePage.html"
+
+      }, 2000);
+
+      Swal.fire({
         icon: "success",
-        title: "Signed in successfully",
+        title: "Excelente...",
+        text: "Usuario Registrado Correctamente",
+        showConfirmButton: false
       });
     }
   }
-  //    formRegister.reset()
-};
+  formRegister.reset()
 
-let register = async (objectRegister) => {
-  await fetch(URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(objectRegister),
-  });
 };

@@ -1,4 +1,5 @@
 const productCar = document.querySelector("#add_objects_js_desktop");
+const buttonPay = document.querySelector("#pay")
 let countProduct = 1;
 
 // Function to fetch data from the server and render products
@@ -76,3 +77,14 @@ let getDataJson = async () => {
 };
 
 getDataJson();
+
+buttonPay.addEventListener("click", () => {
+    let loggedUser = localStorage.getItem("usuario")
+    if(!loggedUser){
+        alert("Debes iniciar sesión para comprar")
+        window.location.href="./login.html"
+    }
+    else{
+        alert("Compra realizada") 
+    }
+})
