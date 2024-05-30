@@ -1,5 +1,110 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "dd2d",
+      "newUserName": "}",
+      "newLastName": "alksjd",
+      "newPhone": "kljjl",
+      "newEmail": "c@a.com",
+      "newPassword": "lkjsda"
+    },
+    {
+      "id": "ba9d",
+      "newUserName": "Juan Diego",
+      "newLastName": "Zuluaga",
+      "newPhone": "3125592852",
+      "newEmail": "Juanzr1015@gmail.com",
+      "newPassword": "Juan22dado."
+    },
+    {
+      "id": "0227",
+      "newUserName": "Juan Diego",
+      "newLastName": "dasdsada",
+      "newPhone": "8765432345678",
+      "newEmail": "Leidyrg8412@gmail.com",
+      "newPassword": ",sadhk"
+    },
+    {
+      "id": "c081",
+      "newUserName": "Juan Diego",
+      "newLastName": "a",
+      "newPhone": "asd",
+      "newEmail": "asdsa@a.com",
+      "newPassword": "alksjda"
+    },
+    {
+      "id": "6650",
+      "newUserName": "Juan Diego",
+      "newLastName": "Zuluaga",
+      "newPhone": "a,s",
+      "newEmail": "a@ho.com",
+      "newPassword": "kajsd"
+    },
+    {
+      "id": "0578",
+      "newUserName": "}",
+      "newLastName": "a",
+      "newPhone": "a",
+      "newEmail": "admin@riwi.io",
+      "newPassword": "a,,an"
+    },
+    {
+      "id": "4ea0",
+      "newUserName": "Juan Diego",
+      "newLastName": "ADSLKJASPDSJALK",
+      "newPhone": "njas",
+      "newEmail": "admin2@riwi.io",
+      "newPassword": "ansa"
+    },
+    {
+      "id": "95e8",
+      "newUserName": "Juan Diego",
+      "newLastName": "a",
+      "newPhone": "aasdashds",
+      "newEmail": "admin5@riwi.io",
+      "newPassword": "skadslkj"
+    },
+    {
+      "id": "b6f8",
+      "newUserName": "aslkda",
+      "newLastName": ",mnas",
+      "newPhone": "123",
+      "newEmail": "e@a.com",
+      "newPassword": "po7908"
+    },
+    {
+      "id": "631f",
+      "newUserName": "Juan Diego",
+      "newLastName": "Zuluaga",
+      "newPhone": "56985680",
+      "newEmail": "ktriou@a.com",
+      "newPassword": "lkajsdsa"
+    },
+    {
+      "id": "5cd5",
+      "newUserName": "Juan Diego",
+      "newLastName": "a",
+      "newPhone": "alsjd",
+      "newEmail": "asda@gmail.com",
+      "newPassword": "akdjsda"
+    },
+    {
+      "id": "753d",
+      "newUserName": "Juan Diego",
+      "newLastName": "a",
+      "newPhone": "21321123",
+      "newEmail": "w_r_g1@hotmal.com",
+      "newPassword": "alksjda"
+    },
+    {
+      "id": "7b12",
+      "newUserName": "santi",
+      "newLastName": "pineda",
+      "newPhone": "1731",
+      "newEmail": "santi@email.com",
+      "newPassword": "akjsda"
+    }
+  ],
   "wines": [
     {
       "id": "1",
@@ -58,5 +163,27 @@
       "price": 1200
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "4",
+      "image": "https://casagrajales.com.co/wp-content/uploads/2021/01/VINO-DULCE-MOSCATEL-CAJA-INFORMATIVO.png",
+      "name": "VINO MOSCATEL VALLE DE LA UNIÓN CAJA 1 L",
+      "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región",
+      "price": 5000
+    },
+    {
+      "id": "1",
+      "image": "https://casagrajales.com.co/wp-content/uploads/2021/02/VINO-MOSCATEL-VINOS-DULCES-CASA-GRAJALES-COLOMBIA-INFORMATIVA-2-608x1024.png",
+      "name": "VINO MOSCATEL VALLE DE LA UNIÓN",
+      "description": "Vino de mistela con perfumado floral, de dulce sabor y suave al paladar. Elaborado a partir de cortes de uva moscatel , uva cereza en mostos importados de argentina y uvas propias de la región.",
+      "price": 11000
+    },
+    {
+      "id": "8",
+      "image": "https://dislicoresqa.vtexassets.com/arquivos/ids/282109-800-auto?v=637901730357530000&width=800&height=auto&aspect=true",
+      "name": "VINO TINTO LAS MORAS RESERVA CABERNET SAUVIGNON SYRAH",
+      "description": "El vino las Moras es un vino tinto argentino que viene por botella de 750 ML. El tipo de uva es 50% Cabernet Sauvignon y 50% Syrah",
+      "price": 1200
+    }
+  ]
 }

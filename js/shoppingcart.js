@@ -1,15 +1,17 @@
 const productCar = document.querySelector("#add_objects_js_desktop");
+const buttonPay = document.querySelector("#pay")
 let countProduct = 1;
 
+// Function to fetch data from the server and render products
 let getDataJson = async () => {
     let response = await fetch("http://localhost:3000/cart");
     let data = await response.json();
-    let price
-    let id
+    let price;
+    let id;
 
-    let productsHTML = ''; // Aquí vamos a construir el HTML de todos los productos
+    let productsHTML = ''; // Here we will build the HTML for all products
     data.forEach(element => {
-        // Construimos el HTML para cada producto y lo concatenamos a productsHTML
+        // Build the HTML for each product and concatenate it to productsHTML
         productsHTML += `
             <div id="container_product_desktop">
                 <img src="${element.image}" alt="">
@@ -23,7 +25,7 @@ let getDataJson = async () => {
                         <button class="plus-btn">
                             <box-icon name='plus-circle' size="25px" color='#ffffff'></box-icon>
                         </button>
-                        <!-- Aquí agregamos un identificador único para el párrafo -->
+                        <!-- Here we add a unique identifier for the paragraph -->
                         <p class="count-product">${countProduct}</p>
                         <button class="minus-btn">
                             <box-icon name='minus-circle' size="25px" color='#ffffff'></box-icon>
@@ -33,20 +35,20 @@ let getDataJson = async () => {
             </div>
         `;
         price = element.price;
-        id = element.id
+        id = element.id;
     });
 
-    // Ahora que hemos construido todo el HTML, lo asignamos a productCar.innerHTML
+    // Now that we have built all the HTML, we assign it to productCar.innerHTML
     productCar.innerHTML = productsHTML;
 
-    // Seleccionamos el elemento del precio dinámico una sola vez
+    // Select the dynamic price element only once
     const priceDinamic = document.querySelector(".priceDinamic");
 
-    // Después de asignar el HTML, añadimos el event listener
+    // After assigning the HTML, we add the event listener
     productCar.addEventListener("click", (event) => {
         if (event.target.classList.contains('plus-btn')) {
             countProduct += 1;
-            // Una vez que incrementamos countProduct, actualizamos el valor del párrafo
+            // Once we increment countProduct, we update the value of the paragraph
             priceDinamic.innerText = price * countProduct;
             document.querySelector('.count-product').innerText = countProduct;
         }
@@ -55,7 +57,7 @@ let getDataJson = async () => {
         if (event.target.classList.contains('minus-btn')) {
             if(countProduct > 1){
                 countProduct -= 1;
-                // Una vez que incrementamos countProduct, actualizamos el valor del párrafo
+                // Once we decrement countProduct, we update the value of the paragraph
                 priceDinamic.innerText = price * countProduct;
                 document.querySelector('.count-product').innerText = countProduct;
             }
@@ -64,7 +66,7 @@ let getDataJson = async () => {
     
     productCar.addEventListener("click", async (event) => {
         if (event.target.classList.contains('delete-btn')) {
-            // Obtener el ID del producto a eliminar del atributo data-id del botón
+            // Get the ID of the product to delete from the data-id attribute of the button
             const productId = event.target.dataset.id;
             await fetch(`http://localhost:3000/cart/${productId}`, {
                 method: 'DELETE'
@@ -76,4 +78,13 @@ let getDataJson = async () => {
 
 getDataJson();
 
-
+buttonPay.addEventListener("click", () => {
+    let loggedUser = localStorage.getItem("usuario")
+    if(!loggedUser){
+        alert("Debes iniciar sesión para comprar")
+        window.location.href="./login.html"
+    }
+    else{
+        alert("Compra realizada") 
+    }
+})
