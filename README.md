@@ -122,4 +122,4 @@ https://drive.google.com/file/d/1K6q2MifbZrzJMcLy_qdS7J3CLAqa7BhM/view?usp=shari
 
 A contonuación presentamos la hoja de actividades del equipo de trabajo, para administras nuestras tareas decidimmos usar la plataforma de Trello, lo podrán encontrar en el siguiente link:
 
-https://trello.com/invite/b/oLwWOY3b/ATTI1a6b2ba7d767cb92a41bbd5cf3a1cf95FCAED94C/vinum-proggramer
+[https://trello.com/invite/b/oLwWOY3b/ATTI1a6b2ba7d767cb92a41bbd5cf3a1cf95FCAED94C/vinum-proggramer](https://trello.com/b/oLwWOY3b/vinum-proggramer)
